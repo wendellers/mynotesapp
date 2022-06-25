@@ -1,2 +1,2 @@
 "use strict";(self["webpackChunkmynotesapp"]=self["webpackChunkmynotesapp"]||[]).push([[443],{7381:function(n,t,a){a.r(t),a.d(t,{default:function(){return f}});var e=a(3396);const s={class:"about"},u=(0,e._)("h1",null,"This is an about page",-1),r=[u];function c(n,t){return(0,e.wg)(),(0,e.iD)("div",s,r)}var o=a(89);const i={},p=(0,o.Z)(i,[["render",c]]);var f=p}}]);
-//# sourceMappingURL=about.e1c759b7.js.map
+//# sourceMappingURL=about.e57f9c51.js.map
