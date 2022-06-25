@@ -12,6 +12,7 @@
         :notesList="notesList"
         :addNote="addNote"
         :editNoteItemID="editNoteItemID"
+        :getDate="getDate"
       />
     </transition>
   </div>
@@ -59,7 +60,6 @@ export default {
       this.TOGGLE_MODAL();
     },
     getDate() {
-      console.log(Date.now());
       this.noteDateUnix = Date.now();
       return new Date(this.noteDateUnix).toLocaleDateString(
         "en-us",

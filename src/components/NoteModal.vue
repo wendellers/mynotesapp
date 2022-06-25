@@ -66,7 +66,7 @@
 import { mapMutations, mapState } from "vuex";
 export default {
   name: "noteModal",
-  props: ["notesList", "addNote", "editNoteItemID"],
+  props: ["notesList", "addNote", "editNoteItemID", "getDate"],
   data() {
     return {
       noteDate: null,
@@ -101,14 +101,14 @@ export default {
       updateItem.title = title;
       updateItem.tag = tag;
       updateItem.content = content;
-      //   updateItem.date = this.getDate();
+      updateItem.date = this.getDate();
       this.TOGGLE_MODAL();
       this.IS_NOT_EDITING();
     },
     reset() {
-      //   this.noteTitle = "";
-      //   this.noteTag = "";
-      //   this.noteContent = "";
+      this.noteTitle = "";
+      this.noteTag = "";
+      this.noteContent = "";
     },
   },
   computed: {
