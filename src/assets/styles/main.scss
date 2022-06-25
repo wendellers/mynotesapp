@@ -24,32 +24,38 @@
   background-color: rgba($color: #000000, $alpha: 0.5);
 }
 .card {
-    &-header {
-        min-height: 41px;
-    }
-    
-    .tag {
-        &-school {
-          color: $white !important;
-          text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
-            1px 1px 1px rgba(0, 0, 0, 0.5);
-          background-color: $purple-400;
-        }
-      
-        &-work {
-          color: $white !important;
-          text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
-            1px 1px 1px rgba(0, 0, 0, 0.5);
-          background-color: $green-400;
-        }
-      
-        &-house {
-          color: $white !important;
-          text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
-            1px 1px 1px rgba(0, 0, 0, 0.5);
-          background-color: $cyan-400;
-        }
-      }
-    
-}
+  &-header {
+    min-height: 41px;
+  }
 
+  .tag {
+    &-school {
+      color: $white !important;
+      text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+        1px 1px 1px rgba(0, 0, 0, 0.5);
+      background-color: $purple-400;
+    }
+
+    &-work {
+      color: $white !important;
+      text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+        1px 1px 1px rgba(0, 0, 0, 0.5);
+      background-color: $green-400;
+    }
+
+    &-house {
+      color: $white !important;
+      text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+        1px 1px 1px rgba(0, 0, 0, 0.5);
+      background-color: $cyan-400;
+    }
+  }
+
+  &-btn-options {
+    opacity: 0.1;
+  }
+
+  &:hover .card-btn-options {
+    opacity: 1;
+  }
+}
