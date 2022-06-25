@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "tag": "house",
+    "title": "Clean my bedroom",
+    "content": "Maecenas sit amet urna id urna fringilla aliquet. Aliquam tincidunt.",
+    "date": "Jun 7, 2022"
+  },
+  {
+    "id": 2,
+    "tag": "school",
+    "title": "Write Thesis",
+    "content": "Nullam accumsan tempus odio in blandit. Mauris tincidunt magna libero.",
+    "date": "Jun 8, 2022"
+  },
+  {
+    "id": 3,
+    "tag": "work",
+    "title": "Meeting with the client",
+    "content": "Praesent rhoncus malesuada lectus ac tempus Pellentesque.",
+    "date": "Jun 11, 2022"
+  }
+]
