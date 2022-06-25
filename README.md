@@ -28,7 +28,7 @@ npm run lint
 ```
 
 ### View Dist locally
-
+```
 1. Install serve
 
 npm serve -s build
@@ -36,7 +36,7 @@ npm serve -s build
 2. run
 
 serve -s dist
-
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
